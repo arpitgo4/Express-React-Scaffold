@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "start": "npm run build:production && ./node_modules/.bin/forever ./bin/www",
-    "start:development": "concurrently --kill-others \" cd client && npm start \" \" cd node_modules/.bin && nodemon ../.././bin/www \" ",
-    "build:production": "cd ./client && webpack -p --progress && cd .. "
+    "start:development": "./node_modules/.bin/nodemon ./bin/www",
+    "build:production": "cd ./client && webpack -p --progress && cd .. ",
+    "start:development_conc": "concurrently --kill-others \" cd client && npm start \" \" cd node_modules/.bin && nodemon ../.././bin/www \" "
   },
   "author": "Arpit Goyal <arpit.go4@gmail.com> (http://github.com/arpitgo4)",
   "dependencies": {
