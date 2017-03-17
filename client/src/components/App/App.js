@@ -30,6 +30,14 @@ export default class App extends Component {
         		<div id="app" className="row">
                     <h1 className="col-sm-6 col-sm-offset-3 well well-lg text-center">{this.state.msg}</h1>
         		</div>
+                <div className="container">
+                    <h1 className="page-header">Hello World!</h1>
+                </div>
+
+                <div>
+                    <p className="lead">Lead Paragraph!</p>
+                    <p>Follow Up Paragraph</p>
+                </div>
         	</div>
     	);
 	}    	
