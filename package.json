@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "cd ./client && webpack -p --progress && cd .. && node ./bin/www"
   },
   "author": "Arpit Goyal <arpit.go4@gmail.com> (http://github.com/arpitgo4)",
   "dependencies": {
@@ -15,5 +15,8 @@
     "mongoose": "^4.9.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
