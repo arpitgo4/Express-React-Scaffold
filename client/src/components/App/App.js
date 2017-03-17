@@ -14,7 +14,6 @@ export default class App extends Component {
        		<div id="app-container" className="container-fluid text-center">
         		<div id="app">
         			<h1 className="jumbotron">Heading</h1>
-        			<Body />
         		</div>
         	</div>
     	);
