@@ -1,0 +1,12 @@
+
+
+## frontend files
+
+## libarary and third party dependencies
+node_modules/
+
+## build
+dist/
+
+## debug logs
+npm-debug*

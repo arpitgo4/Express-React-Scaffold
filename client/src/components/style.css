@@ -1,0 +1,21 @@
+
+#app {
+	border: 1px solid grey;
+}
+
+#search-icon {
+	position: relative;
+	bottom: 50px;
+}
+
+.inline {
+	display: inline;
+}
+
+#stocklist {
+	background-color: #fff;
+}
+
+.table-hover:hover {
+	cursor: pointer;
+}
