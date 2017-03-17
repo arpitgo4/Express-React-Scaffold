@@ -8,8 +8,7 @@
     "build": "webpack -p --colors --progress"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    "type": "git"
   },
   "keywords": [
     "react",
@@ -22,12 +21,7 @@
     "edit",
     "webpack"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
-  },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+  "author": "Arpit Goyal <arpit.go4@gmail.com> (http://github.com/arpitgo4)",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
@@ -54,6 +48,8 @@
     "react": "^0.14.6",
     "react-bootstrap": "^0.30.8",
     "react-dom": "^0.14.6",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
     "style-loader": "^0.13.2",
     "superagent": "^3.5.0",
     "url-loader": "^0.5.8"
