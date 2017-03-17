@@ -6,7 +6,6 @@ import classnames from 'classnames';
 import superagent from 'superagent';
 
 import '../style.css';
-import Body from '../Body/Body';
 
 export default class App extends Component {
 	
@@ -14,7 +13,7 @@ export default class App extends Component {
     	return (
        		<div id="app-container" className="container-fluid text-center">
         		<div id="app">
-        			<h1 className="jumbotron">Stock Indexing</h1>
+        			<h1 className="jumbotron">Heading</h1>
         			<Body />
         		</div>
         	</div>
