@@ -11,12 +11,7 @@ export default class ExpressJS extends React.Component {
 					</h1>
 					<div className="container">
 						<p className="lead">ExpressJS</p>
-						<p>ExpressJS is the server side framework for NodeJS platform.</p>
-						<Link to="/">
-							<button className="btn btn-primary btn-sm">
-								NodeJS
-							</button>
-						</Link>
+						<p>ExpressJS is the server side framework for NodeJS platform.</p>						
 					</div>
 			</div>
 		)

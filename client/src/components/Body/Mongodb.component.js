@@ -1,17 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-export default class NodeJS extends React.Component {
-
+export default class MongoDB extends React.Component {
 	render(){
 		return (
 			<div className="container">
 				<h1 className="page-header">Node-React-Scaffholding</h1>
 				<div className="container">
-					<p className="lead">NodeJS</p>
-					<p>NodeJS is the platform to run javascript on Google's V8 engine.</p>
-				</div>				
+					<p className="lead">MongoDB</p>
+					<p>MongoDB is the document based database. It stores JSON object in the form of BSON.</p>
+				</div>
 			</div>
-		)
+		);
 	}
 }
