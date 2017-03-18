@@ -26,9 +26,9 @@ export default class App extends Component {
     	return (            
             <Provider store={configureStore({})}>
                 <div id="app-container" className="container-fluid">
-                	   <Header />                    
-                        <NodeJS />
-                    <ExpressJS />
+                	{/*<Header />                    
+                    <NodeJS />
+                    <ExpressJS />*/}
                 </div>
             </Provider>
     	);
