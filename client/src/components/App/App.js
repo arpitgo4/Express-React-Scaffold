@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import { Router, Route, Link, browserHistory } from 'react-router';
+import { Router, Route, Link, browserHistory, hashHistory } from 'react-router';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import { Button, Col, Jumbotron, Container, Row } from 'react-bootstrap';
@@ -23,12 +23,13 @@ export default class App extends Component {
     }
 	
 	render() {
-    	return (
+    	return (            
             <Provider store={configureStore({})}>
-           		<div id="app-container" className="container-fluid">
-            		<Header />
+                <div id="app-container" className="container-fluid">
+                	   <Header />                    
+                        <NodeJS />
                     <ExpressJS />
-            	</div>
+                </div>
             </Provider>
     	);
 	}    	
