@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import router from './router';
+import router from './layouts/router';
 import './index.html';
 
 import 'jquery';
@@ -18,8 +18,8 @@ ReactDOM.render(
 
 // for hot reloading this router component.
 if(module.hot){
-	module.hot.accept('./router.js', () => {
-		const updatedRouter = require('./router.js').default;
+	module.hot.accept('./layouts/router.js', () => {
+		const updatedRouter = require('./layouts/router.js').default;
 		console.log('new router', updatedRouter);
 		ReactDOM.render(
 			updatedRouter,
