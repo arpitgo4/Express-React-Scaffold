@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 export default class NodeJS extends React.Component {
 
@@ -9,7 +10,12 @@ export default class NodeJS extends React.Component {
 				<div className="container">
 					<p className="lead">NodeJS</p>
 					<p>NodeJS is the platform to run javascript on Google's V8 engine.</p>
-				</div>
+					<Link to="/express">
+						<button className="btn btn-primary btn-sm">
+							ExpressJS
+						</button>
+					</Link>
+				</div>				
 			</div>
 		)
 	}

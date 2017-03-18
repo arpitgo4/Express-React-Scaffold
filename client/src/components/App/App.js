@@ -20,15 +20,15 @@ export default class App extends Component {
 
     constructor(props){
         super(props);
+        this.state = { heading: 'Hello, ExpressJS!'};
     }
 	
 	render() {
     	return (            
             <Provider store={configureStore({})}>
                 <div id="app-container" className="container-fluid">
-                	{/*<Header />                    
-                    <NodeJS />
-                    <ExpressJS />*/}
+                    <Header />                
+                	{this.props.children}
                 </div>
             </Provider>
     	);

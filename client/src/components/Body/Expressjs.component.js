@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 export default class ExpressJS extends React.Component {
 
@@ -8,8 +9,15 @@ export default class ExpressJS extends React.Component {
 					<h1 className="page-header">
 						Node-React-Scaffholding
 					</h1>
-					<p className="lead">ExpressJS</p>
-					<p>ExpressJS is the server side framework for NodeJS platform.</p>
+					<div className="container">
+						<p className="lead">ExpressJS</p>
+						<p>ExpressJS is the server side framework for NodeJS platform.</p>
+						<Link to="/">
+							<button className="btn btn-primary btn-sm">
+								NodeJS
+							</button>
+						</Link>
+					</div>
 			</div>
 		)
 	}
