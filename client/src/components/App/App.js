@@ -31,12 +31,11 @@ export default class App extends Component {
                     <h1 className="col-sm-6 col-sm-offset-3 well well-lg text-center">{this.state.msg}</h1>
         		</div>
                 <div className="container">
-                    <h1 className="page-header">Hello World!</h1>
-                </div>
-
-                <div>
-                    <p className="lead">Lead Paragraph!</p>
-                    <p>Follow Up Paragraph</p>
+                    <h1 className="page-header">Node-React-Scaffholding</h1>
+                    <div className="container">
+                        <p className="lead">NodeJS</p>
+                        <p>NodeJS is the platform to run javascript on Google's V8 engine.</p>
+                    </div>
                 </div>
         	</div>
     	);
