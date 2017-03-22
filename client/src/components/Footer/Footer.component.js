@@ -5,7 +5,7 @@ export default class Footer extends React.Component {
 	render(){
 		return (
 			<div className="container">
-				<div class="btn-group">
+				<div className="btn-group">
 					<Link to="/">
 						<button className="btn btn-default btn-sm">NodeJS</button>
 					</Link>
