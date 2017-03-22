@@ -1,11 +1,11 @@
 {
   "name": "server",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "npm run build-client:production && forever ./bin/www",
     "start-server:development": "nodemon --ignore 'client/' ./bin/www",
-    "start-client:development": "node ./client/server",
+    "start-client:development": "node ./client/devServer",
     "build-client:production": "webpack -p --progress"
   },
   "repository": {
