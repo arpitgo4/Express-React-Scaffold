@@ -8,7 +8,7 @@ module.exports = {
     './src/index'
   ],
   output: {
-    path: path.join(__dirname, '../', 'dist'),
+    path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
     publicPath: '/'
   },
@@ -22,8 +22,8 @@ module.exports = {
   ],
   module: {
       loaders: [
-      { test: /\.html$/, loaders: ['react-hot', 'file-loader?name=[name].[ext]'], include: path.join(__dirname, 'src') },
-      { test: /\.js$/, loaders: ['react-hot', 'babel'], include: path.join(__dirname, 'src') },
+      { test: /\.html$/, loaders: ['react-hot', 'file-loader?name=[name].[ext]'], include: path.join(__dirname, 'client', 'src') },
+      { test: /\.js$/, loaders: ['react-hot', 'babel'], include: path.join(__dirname, 'client', 'src') },
       { test: /\.css$/, loaders: ['react-hot', 'style-loader', 'css-loader'] },
       { test: /\.png$/, loader: 'url-loader?limit=100000' },
       { test: /\.jpg$/, loader: 'file-loader?name=/images/[name].[ext]' },
