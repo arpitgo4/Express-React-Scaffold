@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npm run build-client:production && forever ./bin/www",
-    "start-server:development": "nodemon --ignore 'client/' ./bin/www",
-    "start-client:development": "node ./client/devServer",
-    "build-client:production": "webpack -p --progress"
+    "start": "cross-env NODE_ENV=production npm run build-client:production && forever ./bin/www",
+    "start-server:development": "cross-env NODE_ENV=development nodemon --ignore 'client/' ./bin/www",
+    "start-client:development": "cross-env NODE_ENV=development node ./client/devServer",
+    "build-client:production": "cross-env NODE_ENV=production webpack -p --progress"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "body-parser": "~1.16.0",
     "bootstrap": "^3.3.7",
     "cookie-parser": "~1.4.3",
+    "cross-env": "^3.2.4",
     "css-loader": "^0.27.1",
     "debug": "~2.6.0",
     "ejs": "^2.5.6",
