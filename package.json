@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "npm run build-client:production && forever ./bin/www",
-    "start:development": "nodemon --ignore 'client/' ./bin/www",
+    "start-server:development": "nodemon --ignore 'client/' ./bin/www",
+    "start-client:development": "node ./client/server",
     "build-client:production": "webpack -p --progress"
   },
   "repository": {
