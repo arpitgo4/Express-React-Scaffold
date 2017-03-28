@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 const ENTRY_POINTS = [ './client/src/index' ];
-const DEV_ENTRY_POINTS = ENTRY_POINTS.concat( [ 'webpack-hot-middleware/client' ]);
+const DEV_ENTRY_POINTS = ENTRY_POINTS.concat( [ 'webpack-hot-middleware/client' ] );
 
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
