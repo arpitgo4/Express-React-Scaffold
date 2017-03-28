@@ -25,7 +25,7 @@
 	├── LICENSE						#	License to use the project
 	├── package.json 				#	Frontend and backend dependencies
 	├── README.md 					#	This file
-	└── webpack.config.js 			#	Webpack configuration for 'production' and 'development'
+	└── webpack.config.js 			#	Webpack configuration for 'production' and 'development' 
  
 ```
 
