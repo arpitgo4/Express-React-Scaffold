@@ -58,9 +58,12 @@ npm run start-server:development
 Client's development process will proxy all the API requests with '/api' in the URL to the backend server.
 
 ## Production
-### Scaffhold provides one production script
+### Scaffhold provides two production script
 ```
-# Build the client for production and start the backend server with 'forever' package
+# Build the client for production deployment
+npm run build-client:production
+
+# Build the client for production deployment and start the backend server with 'forever' package
 npm start 
 ```
 
