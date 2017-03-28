@@ -4,7 +4,7 @@
 ```
 	.
 	├── bin							#	Backend server ( Express )
-	|	├── www                   	#	Express server configuration ( port, address, clustering )
+	|		├── www         #	Express server configuration ( port, address, clustering )
 	├── client						#	Frontend complete source code				
 	|	├── src						#	Frontend source files
 	|	|	├── components			#	React component's source
