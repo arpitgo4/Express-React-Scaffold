@@ -1,6 +1,6 @@
 
 # Express-React-Scaffold
-Full stack JS scaffold with ExpressJS as the backend server and React-Redux on the client side. Scaffold supports production and development modes, with best Developer Experience ( DE ) by Hot-Loading for the client side application and automatic server restarts for the backend server on code change. There will be no need to restart during development, hence making the experience smooth and decrease the delivery time.
+Full stack JS scaffold with ExpressJS as the backend server and React-Redux on the client side. Scaffold supports production and development modes, with best **Developer Experience** ( DE ) by Hot-Loading for the client side application and automatic server restarts for the backend server on code change. There will be no need to restart during development, hence making the experience smooth and decrease the delivery time.
 
 ## Scaffold Structure 
 
@@ -63,7 +63,7 @@ Frontend and Backend dev servers will start at http://localhost:3000 and http://
 Hit frontend dev server to load application in the browser, enjoy developing :)
 
 ### Proxy Middleware
-Client's development process will proxy all the API requests with '/api' in the URL to the backend server. 'devServer.js' is in the 'client/src' directory starts server at http://localhost:3000, which will provide all the hot loading functionality and proxy the API calls to the backend server process behind the scenes.
+Client's development process will proxy all the API requests with `'/api'` in the URL to the backend server. `devServer.js` is in the `client/src` directory starts server at http://localhost:3000, which will provide all the hot loading functionality and proxy the API calls to the backend server process behind the scenes.
 React-Hot-Loader is used to hot load the components without losing the current state or refreshing the browser. Redux store maintains all the state of the application in the single state object.
 
 Refer to the [react-hot-boilerplate](https://github.com/gaearon/react-hot-boilerplate) for further description.
@@ -81,7 +81,7 @@ npm start
 * Hot Reloading of the Routes ( Browser refresh is needed! ).
 
 ## Feedback
-In case of any query or feedback, please feel free to contact at:
+In case of any query or feedback, please feel free to connect via
 * arpit.go4@gmail.com (Arpit Goyal)
 
 Or, open an issue at github.
