@@ -1,5 +1,8 @@
 
-### Scaffhold Structure 
+## Express-React-Scaffold
+Full stack JS scaffold with ExpressJS as the backend server and React-Redux on the client side. Scaffold supports production and development modes, with best Developers Experience ( DE ) by Hot-Loading for the client side application and automatic server restarts for the backend server on code change. There will be no need to restart during development, hence making the experience smooth and decrease the delivery time.
+
+## Scaffhold Structure 
 
 ```
 	.
@@ -79,5 +82,3 @@ npm start
 	Webpack
 
 ```
-
-## Application will start on http://localhost:8080
