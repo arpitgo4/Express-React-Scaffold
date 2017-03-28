@@ -58,8 +58,12 @@ npm run start-client:development
 # Start backend server in development mode with nodemon ( server restarts on every change )
 npm run start-server:development
 ```
-Client's development process will proxy all the API requests with '/api' in the URL to the backend server.
 
+## Proxy Server
+Client's development process will proxy all the API requests with '/api' in the URL to the backend server. 'devServer.js' is in the 'client/src' directory, which will provide all the hot loading functionality and proxy the API calls to the backend server process behind the scenes.
+React-Hot-Loader is used to hot load the components without losing the current state or refreshing the browser. Redux store maintains all the state of the application in the single state object.
+
+Refer to the react-hot-boilerplate (@link: https://github.com/gaearon/react-hot-boilerplate) for further description.
 ## Production
 ### Scaffhold provides two production script
 ```
@@ -69,6 +73,8 @@ npm run build-client:production
 # Build the client for production deployment and start the backend server with 'forever' package
 npm start 
 ```
+
+
 
 ### Technologies Used
 ```
