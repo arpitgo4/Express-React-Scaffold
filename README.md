@@ -1,6 +1,6 @@
 
 # Express-React-Scaffold
-Full stack JS scaffold with ExpressJS as the backend server and React-Redux on the client side. Scaffold supports production and development modes, with best Developers Experience ( DE ) by Hot-Loading for the client side application and automatic server restarts for the backend server on code change. There will be no need to restart during development, hence making the experience smooth and decrease the delivery time.
+Full stack JS scaffold with ExpressJS as the backend server and React-Redux on the client side. Scaffold supports production and development modes, with best Developer's Experience ( DE ) by Hot-Loading for the client side application and automatic server restarts for the backend server on code change. There will be no need to restart during development, hence making the experience smooth and decrease the delivery time.
 
 ## Scaffold Structure 
 
@@ -52,10 +52,12 @@ npm start
 ## Development
 ### Scaffold provides two npm scripts, execute both in seperate terminals
 ```	
-# Start client in development mode with hot code loading
+# Start client in development mode with hot code loading,
+# dev server starts at http://localhost:3000
 npm run start-client:development
 
 # Start backend server in development mode with nodemon ( server restarts on every change )
+# server starts at http://localhost:8080
 npm run start-server:development
 ```
 
