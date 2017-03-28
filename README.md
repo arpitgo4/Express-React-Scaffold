@@ -60,7 +60,7 @@ npm run start-server:development
 ```
 
 Frontend and Backend dev servers will start at http://localhost:3000 and http://localhost:8080, respectively.
-Hit frontend dev server to load application in the browser and enjoy developing. :)
+Hit frontend dev server to load application in the browser, enjoy developing :)
 
 ### Proxy Middleware
 Client's development process will proxy all the API requests with '/api' in the URL to the backend server. 'devServer.js' is in the 'client/src' directory starts server at http://localhost:3000, which will provide all the hot loading functionality and proxy the API calls to the backend server process behind the scenes.
@@ -77,7 +77,7 @@ npm run build-client:production
 npm start 
 ```
 
-## Limitations
+## Known Limitations
 * Hot Reloading of the Routes ( Browser refresh is needed! ).
 
 ## Feedback
