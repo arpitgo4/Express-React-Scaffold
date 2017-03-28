@@ -75,5 +75,8 @@ npm start
 ```
 
 ## Limitations
-* Hot Reloading of the Routes without full refresh.
+* Hot Reloading of the Routes ( Browser refresh is needed! ).
 
+## Feedback
+In case of any query or feedback, please feel free to contact at:
+* arpit.go4@gmail.com (Arpit Goyal)
