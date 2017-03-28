@@ -33,35 +33,35 @@
 ## Quick Start
 ### Just to check everything is working
 ```
-	# Install the dependencies
-	npm install
+# Install the dependencies
+npm install
 
-	# Build the client 
-	npm run build-client:production
+# Build the client 
+npm run build-client:production
 
-	# Start the project ( it will build the client, before starting the server )
-	npm start
+# Start the project ( it will build the client, before starting the server )
+npm start
 
-	# Open web browser at http://localhost:8080
-	# You will see a sample Single Page Application
+# Open web browser at http://localhost:8080
+# You will see a sample Single Page Application
 ```
 
 ## Development
 ### Scaffhold provides two npm scripts, execute both in seperate terminals
 ```	
-	# Start client in development mode with hot code loading
-	npm run start-client:development
+# Start client in development mode with hot code loading
+npm run start-client:development
 
-	# Start backend server in development mode with nodemon ( server restarts on every change )
-	npm run start-server:development
+# Start backend server in development mode with nodemon ( server restarts on every change )
+npm run start-server:development
 ```
 Client's development process will proxy all the API requests with '/api' in the URL to the backend server.
 
 ## Production
 ### Scaffhold provides one production script
 ```
-	# Build the client for production and start the backend server with 'forever' package
-	npm start 
+# Build the client for production and start the backend server with 'forever' package
+npm start 
 ```
 
 ### Technologies Used
