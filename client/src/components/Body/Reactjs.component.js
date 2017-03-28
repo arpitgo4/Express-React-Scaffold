@@ -5,11 +5,8 @@ export default class ReactJS extends React.Component{
 	render(){
 		return(
 			<div className="container">
-				<h1 className="page-header">Node-React-Scaffholding</h1>
-				<div className="container">
-					<p className="lead">ReactJS</p>
-					<p>ReactJS is the UI library, which is used to create component-based user interfaces.</p>
-				</div>
+				<p className="lead">ReactJS</p>
+				<p>ReactJS is the UI library, which is used to create component-based user interfaces.</p>
 			</div>
 		);
 	}

@@ -3,13 +3,12 @@ import { Router, Route, IndexRoute, Link, IndexLink, browserHistory, hashHistory
 
 import AppLayout from './App.layout';
 
-import Header from '../components/Header/Header.component';
 import NodeJS from '../components/Body/Nodejs.component';
 import ExpressJS from '../components/Body/Expressjs.component';
 import ReactJS from '../components/Body/Reactjs.component';
 import MongoDB from '../components/Body/Mongodb.component';
 
-const router = (
+const AppRouter = () => (
 	<Router history={browserHistory}>
 		<Route path="/" component={AppLayout} >
 			<IndexRoute component={NodeJS} />
@@ -18,6 +17,6 @@ const router = (
 			<Route path="react" component={ReactJS} />
 		</Route>
 	</Router>
-)
+);
 
-export default router;
+export default AppRouter;

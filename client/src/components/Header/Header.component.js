@@ -21,9 +21,14 @@ export default class Header extends React.Component {
 
 	render(){
 		return (
-			<div className="row">
-				<h1 className="col-sm-6 col-sm-offset-3 well well-lg text-center">
-					{this.state.heading}
+			<div className="container">
+				<div className="row">
+					<h1 className="col-sm-6 col-sm-offset-3 well well-lg text-center">
+						{this.state.heading}
+					</h1>
+				</div>
+				<h1 className="page-header">
+						Express-React-Scaffholding
 				</h1>
 			</div>
 		)

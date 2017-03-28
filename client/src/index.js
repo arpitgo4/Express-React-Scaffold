@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import router from './layouts/router';
+import AppRouter from './layouts/App.Router';
 import './index.html';
 
 import 'jquery';
@@ -12,17 +12,16 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './style.css';
 
 ReactDOM.render(
-	router,
+	<AppRouter />,
 	document.getElementById('root')
 );
 
 // for hot reloading this router component.
 if(module.hot){
-	module.hot.accept('./layouts/router.js', () => {
-		const updatedRouter = require('./layouts/router.js').default;
-		console.log('new router', updatedRouter);
+	module.hot.accept('./layouts/App.Router.js', () => {
+		const AppRouter = require('./layouts/App.Router.js').default;
 		ReactDOM.render(
-			updatedRouter,
+			<AppRouter />,
 			document.getElementById('root')
 		);
 	});
