@@ -2,7 +2,7 @@
 ## Express-React-Scaffold
 Full stack JS scaffold with ExpressJS as the backend server and React-Redux on the client side. Scaffold supports production and development modes, with best Developers Experience ( DE ) by Hot-Loading for the client side application and automatic server restarts for the backend server on code change. There will be no need to restart during development, hence making the experience smooth and decrease the delivery time.
 
-## Scaffhold Structure 
+## Scaffold Structure 
 
 ```
 	.
@@ -50,7 +50,7 @@ npm start
 ```
 
 ## Development
-### Scaffhold provides two npm scripts, execute both in seperate terminals
+### Scaffold provides two npm scripts, execute both in seperate terminals
 ```	
 # Start client in development mode with hot code loading
 npm run start-client:development
@@ -65,26 +65,11 @@ React-Hot-Loader is used to hot load the components without losing the current s
 
 Refer to the [react-hot-boilerplate](https://github.com/gaearon/react-hot-boilerplate) for further description.
 ## Production
-### Scaffhold provides two production script
+### Scaffold provides two production scripts
 ```
 # Build the client for production deployment
 npm run build-client:production
 
 # Build the client for production deployment and start the backend server with 'forever' package
 npm start 
-```
-
-
-
-### Technologies Used
-```
-	
-	ExpressJS
-	Mongoose
-
-	HTML5
-	Bootstrap
-	ReactJS
-	Webpack
-
 ```
