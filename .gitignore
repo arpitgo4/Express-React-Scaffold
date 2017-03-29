@@ -6,3 +6,5 @@ dist/
 
 ## debug logs
 npm-debug*
+
+.coveralls.yml
