@@ -1,5 +1,5 @@
 
-# Express-React-Scaffold ![alt tag](https://travis-ci.org/arpitgo4/Express-React-Scaffold.svg?branch=master)
+# Express-React-Scaffold [![Build Status](https://travis-ci.org/arpitgo4/Express-React-Scaffold.svg?branch=master)](https://travis-ci.org/arpitgo4/Express-React-Scaffold)
 Full stack JS scaffold with ExpressJS as the backend server and React-Redux on the client side. Scaffold supports production and development modes, with **Best Developer Experience** ( DX ) by Hot-Loading for the client side application and automatic server restarts for the backend server on code change. There will be no need to restart during development, hence making the experience smooth and decrease the delivery time.
 
 ## Scaffold Structure 
